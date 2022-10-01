@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+table.content_table {
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 500px;
+    margin: 10px;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+tr td:not(.blue) {
+    border-style: double;
+    border-collapse: collapse;
+    background-color: yellow;
+    outline: 1px solid orange;
+    width: 125px;
+    height: 35px;
+    padding: 5px;
+}
+
+.blue {
+    background-color: blue;
+    border-style: double;
+    border-collapse: collapse;
+    width: 125px;
+    height: 35px;
+    padding: 5px;
+}
+
+/*
+.content_table tr:nth-child(1) td:only-child {
+    background-color: blue;
+}
+
+.content_table tr:nth-child(2) td:nth-child(-n+2) {
+    background-color: blue;
+}
+
+
+
+table.g_test { border: solid 1pt black; border-collapse: collapse}
+.g_test td { padding: 1em; border: solid 1pt black; text-align: center; border-collapse: collapse;}
+td.g { border: 0; }
+.g_test td.G[rowspan] { vertical-align: top; text-align: right; }
+.g_test td.G[colspan] { text-align: left; }
+
+
+
+
